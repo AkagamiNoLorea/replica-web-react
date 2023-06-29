@@ -8,7 +8,7 @@ function App(){
     
        <>
         <h1>hola soy un componente de react</h1>
-        <p>react me esta matando</p>
+        
         <h1>manolo el del bombo</h1>
         <button>no puede ser</button>
         </>

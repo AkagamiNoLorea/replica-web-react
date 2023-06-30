@@ -6,10 +6,13 @@ function App(){
 
   return (
     
-       <div>
-        <h1>hola soy un componente de react</h1>
-        <p>hola como estas</p>
-            </div>
+       <>
+       
+       <Titulo/>
+       <Titulo/>
+       <Titulo/>
+
+       </>
   )
   }
       

@@ -1,14 +1,17 @@
 
-/**
- * Renders a red button component.
- *
- * @return {JSX.Element} The rendered JSX element.
- */
-const Botons = () => {
+const Boton = () => {
+  const botones = ['Button 1', 'Button 2', 'Button 3'];
+
   return (
-    <button style={{ backgroundColor: 'red', color: 'white' }}>Click me</button>
+    <div>
+      {botones.map((boton, index) => (
+        <button key={index}>{boton}</button>
+      ))}
+    </div>
   );
 };
 
-export default Botons;
+export default Boton;
+
+
 

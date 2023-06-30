@@ -1,21 +1,26 @@
 
-import Image from './components/Image';
-import { Parrafo1, Parrafo2, Parrafo3 } from './components/Parrafo';
-import Boton from './components/boton';
 
+import Parrafo from './components/Parrafo';
+import Boton from './components/boton';
+import Image from './components/Image';
+import List from './components/List';
 
   
  
 function App() {
   return (
     <>
-     
+  
       <Image />
-      <Parrafo1 />
-      <Parrafo2 />
-      <Parrafo3 />
       <Boton />
-    </>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr" }}>
+      <Parrafo />
+      </div>
+      
+      <List />
+      
+      
+      </>
   );
 
 }

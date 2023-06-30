@@ -12,10 +12,8 @@ function App() {
     <>
     <Boton />
     <Image />
-    <div style={{ display: "grid", gridTemplateColumns: "1fr" }}>
     <Parrafo />
     <List />
-    </div>
     <Boton />
     </>
   );

@@ -1,5 +1,6 @@
 import './App.css'
 import Titulo from './components/Titulo'
+import reviewcompleta from './components/moleculas/reviewcompleta'
 
 function App(){
 
@@ -11,6 +12,7 @@ function App(){
         <p>react me esta matando</p>
         <h1>manolo el del bombo</h1>
         <button>no puede ser</button>
+        <reviewcompleta/>
         </>
   )
   }

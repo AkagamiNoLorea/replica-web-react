@@ -1,20 +1,23 @@
-import React from 'react';
-import Parrafo from './components/Parrafo';
-import Imagen from './components/Imagen';
 
-/**
- * Renders the App component.
- *
- * @return {JSX.Element} The rendered JSX element.
- */
+import Image from './components/Image';
+import { Parrafo1, Parrafo2, Parrafo3 } from './components/Parrafo';
+import Boton from './components/boton';
+
+
+  
+ 
 function App() {
   return (
     <>
-      <h1>El chiringuito</h1>
-      <Imagen />
-      <Parrafo />
+     
+      <Image />
+      <Parrafo1 />
+      <Parrafo2 />
+      <Parrafo3 />
+      <Boton />
     </>
   );
+
 }
 
 export default App;

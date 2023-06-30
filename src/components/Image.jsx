@@ -1,10 +1,6 @@
-import React from 'react';
 
-/**
- * Renders an image and paragraph component.
- *
- * @return {JSX.Element} The rendered JSX element.
- */
+
+
 const Imagen = () => {
   return (
     <>

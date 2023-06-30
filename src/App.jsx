@@ -1,18 +1,21 @@
-import './App.css'
-import Titulo from './components/Titulo'
+import React from 'react';
+import Parrafo from './components/Parrafo';
+import Imagen from './components/Imagen';
 
-
-function App(){
-
-
+/**
+ * Renders the App component.
+ *
+ * @return {JSX.Element} The rendered JSX element.
+ */
+function App() {
   return (
-    
-       <>
-        <h1>hola soy un componente de react</h1>
-        <h1>manolo el del bombo</h1>
-        <button>no puede ser</button>
-        
-      </>
-      )
+    <>
+      <h1>El chiringuito</h1>
+      <Imagen />
+      <Parrafo />
+    </>
+  );
 }
+
 export default App;
+

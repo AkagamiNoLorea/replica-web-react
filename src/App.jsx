@@ -10,17 +10,14 @@ import List from './components/List';
 function App() {
   return (
     <>
-  
-      <Image />
-      <Boton />
-      <div style={{ display: "grid", gridTemplateColumns: "1fr" }}>
-      <Parrafo />
-      </div>
-      
-      <List />
-      
-      
-      </>
+    <Boton />
+    <Image />
+    <div style={{ display: "grid", gridTemplateColumns: "1fr" }}>
+    <Parrafo />
+    <List />
+    </div>
+    <Boton />
+    </>
   );
 
 }

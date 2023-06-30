@@ -1,6 +1,6 @@
 const Parrafo = () => {
-        return (<div style={{ display: "flex",textAlign:"left", flexDirection: "column", width: "200",
-        height: "200" }}>
+        return (<div style={{ display: "flex",textAlign:"left", flexDirection: "column", width: "250px",
+        height: "500px" }}>
                 
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit

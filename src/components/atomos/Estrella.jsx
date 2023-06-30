@@ -1,10 +1,8 @@
-import React from 'react';
-import estrella from './img/55star.png';
 
 const Estrella = () => {
   return (
     <>
-    <img src={estrella} alt='estrella' className='estrella'/>
+    <img src="/src/img/55star.png" alt='estrella'/>
     </>
   )
 }

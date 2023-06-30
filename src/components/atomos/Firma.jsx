@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Firma = () => {
   return (
-    <div>Firma</div>
+    <div><h3>John Smith</h3></div>
   )
 }
 

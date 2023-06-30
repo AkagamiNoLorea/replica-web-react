@@ -1,16 +1,15 @@
-import React from 'react'
-import Estrella from '../atomos/Estrella'
-import Review from '../atomos/Review'
-import Firma from '../atomos/Firma'
+import Estrella from "../atomos/Estrella";
+import Firma from "../atomos/Firma";
+import Review from "../atomos/review";
 
-const reviewcompleta = () => {
-  return (
-    <div>
-        <Estrella/>
-        <Review/>
-        <Firma/>
-    </div>
-  )
+const Reviewcompleta = () => {
+    return (
+        <div className='Reviewcompleta'>
+            <Estrella />
+            <Review />
+            <Firma />
+        </div>
+    )
 }
 
-export default reviewcompleta
+export default Reviewcompleta

@@ -1,10 +1,10 @@
 import Estrella from "../atomos/Estrella";
 import Firma from "../atomos/Firma";
-import Review from "../atomos/review";
+import Review from "../atomos/Review";
 
 const Reviewcompleta = () => {
     return (
-        <div className='Reviewcompleta'>
+        <div className='Reviewcompletacss'>
             <Estrella />
             <Review />
             <Firma />

@@ -9,6 +9,7 @@ import Image1 from './components/Image1';
 import Organize from './components/Organize';
 import Imagenes2 from './components/Imagenes2';
 
+
 function App() {
   return (
     <>

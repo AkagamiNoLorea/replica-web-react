@@ -13,14 +13,14 @@ import Imagenes2 from './components/Imagenes2';
 function App() {
   return (
     <>
-    <Image />
-    <Parrafo />
-    <Organize/>
-    <Image1/>
-    <Imagenes2 />
-    <Parrafo1 />
-    <List />
-    <Botons/>
+   <Image className="Image" />
+      <Parrafo className="Parrafo" />
+      <Organize className="Organize" />
+      <Image1 className="Image1" />
+      <Imagenes2 className="Imagenes2" />
+      <Parrafo1 className="Parrafo1" />
+      <List className="List" />
+      <Botons className="Botons" />
     </>
   );
 

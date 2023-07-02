@@ -1,5 +1,4 @@
 
-
 import Parrafo from './components/Parrafo';
 import Parrafo1 from './components/Parrafo1';
 import Botons from './components/Botons';
@@ -8,6 +7,7 @@ import List from './components/List';
 import Image1 from './components/Image1';
 import Organize from './components/Organize';
 import Imagenes2 from './components/Imagenes2';
+
 
 
 function App() {
@@ -21,9 +21,6 @@ function App() {
     <Parrafo1 />
     <List />
     <Botons/>
-    
-    
-    
     </>
   );
 

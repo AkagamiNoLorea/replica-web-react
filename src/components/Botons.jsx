@@ -1,17 +1,19 @@
-
-const Boton = () => {
-  const botones = ['Button 1', 'Button 2'];
-
-    return (
+const Botons = () => {
+  return (
     <div>
-    {botones.map((boton, index) => (
-    <button key={index}>{boton}</button>
-    ))}
+      <button style={{ backgroundColor: 'red', color: 'white', borderRadius: '25px' }}>
+        TERMS
+      </button>
+      <button style={{ backgroundColor: 'white', color: 'black', borderRadius: '25px' }}>
+        PRIVACY
+      </button>
     </div>
-    );
-    };
+  );
+};
 
-export default Boton;
+export default Botons;
+
+
 
 
 

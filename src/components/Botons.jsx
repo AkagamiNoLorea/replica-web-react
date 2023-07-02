@@ -1,6 +1,6 @@
 
 const Boton = () => {
-  const botones = ['Button 1', 'Button 2', 'Button 3'];
+  const botones = ['Button 1', 'Button 2'];
 
     return (
     <div>

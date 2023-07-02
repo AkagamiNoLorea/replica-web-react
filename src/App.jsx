@@ -1,20 +1,25 @@
 
 
 import Parrafo from './components/Parrafo';
-import Boton from './components/boton';
+import Parrafo1 from './components/Parrafo1';
+import Botons from './components/Botons';
 import Image from './components/Image';
 import List from './components/List';
+import Image1 from './components/Image1';
+import Organize from './components/Organize';
 
   
  
 function App() {
   return (
     <>
-    <Boton />
     <Image />
     <Parrafo />
+    <Organize/>
+    <Parrafo1 />
     <List />
-    <Boton />
+    <Image1/>
+    <Botons />
     </>
   );
 

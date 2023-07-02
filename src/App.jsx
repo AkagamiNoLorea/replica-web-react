@@ -3,13 +3,21 @@ import './App.css'
 function App() {
 
   return (
-    
-       <div>
-        <h1>hola soy un componente de react</h1>
-        <p>react me esta matando</p>
-        <h1>manolo el del bombo</h1>
-        <center><button>no puede ser</button></center>
-        </div>
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Edit <code>src/App.jsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   )
 }
 

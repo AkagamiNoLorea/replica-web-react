@@ -1,7 +1,11 @@
+import './Parrafo-style.css';
 const Parrafo = () => {
         return (
           <>
-          <h2>Organize Your Time And Start Getting Results</h2>    
+          <div className="h2">
+          <h2>Organize Your Time And Start Getting Results</h2>
+          </div>
+          <div className="texto1">
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Sed ac enim eget lacus gravida tincidunt. Phasellus gravida 
@@ -20,6 +24,7 @@ const Parrafo = () => {
       tristique turpis eget, ultricies lectus. Fusce fermentum 
       magna ac suscipit posuere.
         </p>
+        </div>
         </>
         );
       };

@@ -1,0 +1,11 @@
+.h2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.texto1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}

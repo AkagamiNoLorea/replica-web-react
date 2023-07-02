@@ -1,0 +1,6 @@
+/* Estilos para las imágenes en dos columnas */
+.Imagenes2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+  

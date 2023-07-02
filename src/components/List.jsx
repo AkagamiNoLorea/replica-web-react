@@ -5,15 +5,15 @@ const List = () => {
     <ul>
         <li>
         <input type="checkbox" id="option1" />
-        <label htmlFor="option1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error nihil, quibusdam illo dolor quae explicabo eius autem nesciunt, cum quas doloribus sit id rem totam similique nulla. Animi, explicabo illo.</label>
+        <label htmlFor="option1">You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</label>
         </li>
         <li>
         <input type="checkbox" id="option2" />
-        <label htmlFor="option2">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur sed consequuntur vero dolorum odit quisquam similique quaerat alias, earum, quasi nesciunt ratione! Cumque accusamus quia alias veritatis itaque deleniti!</label>
+        <label htmlFor="option2">It's easy to stay focused on your most important daily activities that will get you closer to meeting your golas</label>
         </li>
         <li>
         <input type="checkbox" id="option3" />
-        <label htmlFor="option3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempore odio enim optio pariatur quae dolorum distinctio eum, consectetur sunt magnam laborum saepe. Itaque voluptatibus doloremque mollitia similique iste nesciunt. 3</label>
+        <label htmlFor="option3">Use phone remiders to free up your long term memory which will reduce stress and make you more productive</label>
         </li>
     </ul>
     </div>

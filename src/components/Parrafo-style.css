@@ -1,11 +1,17 @@
 .h2{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
+  justify-content:flex-end; 
+  align-items:flex-end;
 }
-.texto1{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+.texto1 {
+  writing-mode:vertical-rl;
+  font-size: 1.2em; 
+  
 }
+
+.texto1 p {
+  margin: 10;
+  
+}
+
+

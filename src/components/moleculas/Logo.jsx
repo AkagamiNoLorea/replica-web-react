@@ -1,10 +1,11 @@
+import logo from '../../img/logo.svg'
 
 const Logo = () => {
     return (
         <>
-            <a href="/"><img className="logo" src="..../src/components/images/logo.svg" alt="Logo Empresa"></a>
+            <a href="/"><img src={logo} alt="Logo Empresa"></img></a>
         </>
     )
 }
 
-export default Logo
+export default Logo;

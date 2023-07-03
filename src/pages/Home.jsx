@@ -3,7 +3,12 @@ import Navbar from "../components/Navbar"
 const Home = () => {
     return (
         <>
-            <Navbar/>
+        {/* 
+        <Mobil/>
+        <Organize/>
+        <Testimonials/>
+        <Autopubli/>
+        */}
         </>
     )
 }

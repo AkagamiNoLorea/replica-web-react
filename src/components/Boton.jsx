@@ -1,13 +1,14 @@
 const Boton = () => {
-  const botones = ['Button 1', 'Button 2'];
-
-    return (
+  return (
     <div>
-    {botones.map((boton, index) => (
-    <button key={index}>{boton}</button>
-    ))}
+      <button style={{ backgroundColor: 'red', color: 'white', borderRadius: '25px' }}>
+        AppleDOWNLOAD
+      </button>
+      <button style={{ backgroundColor: 'white', color: 'black', borderRadius: '25px' }}>
+        DOWNLOAD
+      </button>
     </div>
-    );
-    };
+  );
+};
 
 export default Boton;

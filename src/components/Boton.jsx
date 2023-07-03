@@ -1,14 +1,9 @@
 const Boton = () => {
   return (
     <div>
-      <button style={{ backgroundColor: 'red', color: 'white', borderRadius: '25px' }}>
-        AppleDOWNLOAD
-      </button>
-      <button style={{ backgroundColor: 'white', color: 'black', borderRadius: '25px' }}>
-        DOWNLOAD
-      </button>
+      <img src="src\img\download1.png" />
     </div>
   );
 };
 
-export default Boton;
+export default Boton

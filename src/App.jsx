@@ -2,7 +2,7 @@ import Circuloamarillo from './components/Circuloamarillo';
 import Circuloazul from './components/Circuloazul';
 import Rombo from './components/Rombo';
 import Titulo from './components/Titulo';
-
+import Boton from './components/Boton';
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
             <Circuloazul />
             <Rombo />
             <Titulo />
+            <Boton />
         </>
     );
 

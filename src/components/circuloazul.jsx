@@ -1,9 +1,12 @@
 const CirculoAzul = () => {
-    return (
-        <div>
-            <img src="src\img\decorative-blue-circle.svg" alt='circulo' />
-        </div>
-    )
-}
+        const CirculoAzul= "src/img/decorative-blue-circle.svg"
+        return (
+            <>
+            <div className="CirculoAzul">
+                <img src={CirculoAzul} alt="CirculoAzul" width={"50px"} height={"50px"} />
+            </div>
+                </>
+            );
+        };
 
-export default CirculoAzul
+export default CirculoAzul;

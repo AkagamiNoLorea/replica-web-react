@@ -3,7 +3,7 @@ const CirculoAmarillo = () => {
     return (
         <>
         <div className= "CirculoAmarillo">
-            <img src={Circuloamarillo} alt="Circuloamarillo" width={"50px"} height={"50px"} />
+            <img src={Circuloamarillo} alt="Circuloamarillo" width={"25px"} height={"25px"} />
         </div>
         </>
     );

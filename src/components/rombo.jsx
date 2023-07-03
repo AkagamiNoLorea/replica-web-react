@@ -3,7 +3,7 @@ const Rombo = () => {
   return (
     <>
     <div className= "Rombo">
-        <img src={Rombo} alt="Rombo" width={"50px"} height={"50px"} />
+        <img src={Rombo} alt="Rombo" width={"15px"} height={"15px"} />
     </div>
     </>
   );

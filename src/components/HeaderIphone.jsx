@@ -1,5 +1,5 @@
 const HeaderIphone = () => {
-    const HeaderIphone= "src/img/header-iphone.pngg"
+    const HeaderIphone= "src/img/header-iphone.png"
     return (
       <>
       <div className= "HeaderIphone">

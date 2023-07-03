@@ -3,6 +3,9 @@ import Circuloazul from './components/Circuloazul';
 import Rombo from './components/Rombo';
 import Titulo from './components/Titulo';
 import Boton from './components/Boton';
+import HeaderIphone from './components/HeaderIphone';
+import Icons from './components/Icons';
+
 
 
 function App() {
@@ -13,6 +16,8 @@ function App() {
             <Rombo />
             <Titulo />
             <Boton />
+            <HeaderIphone />
+            <Icons />
         </>
     );
 

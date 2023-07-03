@@ -4,14 +4,13 @@
   align-items:flex-end;
 }
 .texto1 {
-  writing-mode:vertical-rl;
-  font-size: 1.2em; 
-  
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  column-count: 1;
 }
 
-.texto1 p {
-  margin: 10;
-  
-}
+
 
 

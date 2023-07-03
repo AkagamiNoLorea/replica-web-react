@@ -1,15 +1,5 @@
 .Imagenes2 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
-    justify-content: flex-start;
-    margin-left: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
   }
-
-.Imagenes2 img {
-  margin:0%;
-  
-}
-
-
- 

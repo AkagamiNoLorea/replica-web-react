@@ -1,7 +1,8 @@
+import './Parrafo1-style.css';
 const Parrafo1 = () => {
     return (
       <>
-         
+         <div className="texto2">
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
       Sed ac enim eget lacus gravida tincidunt. Phasellus gravida 
@@ -20,6 +21,7 @@ const Parrafo1 = () => {
       tristique turpis eget, ultricies lectus. Fusce fermentum 
       magna ac suscipit posuere.
     </p>
+    </div>
     </>
     );
   };

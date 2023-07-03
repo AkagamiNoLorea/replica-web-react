@@ -1,0 +1,7 @@
+.texto2{
+width: 400px;
+height: 300px;
+overflow: hidden;
+text-overflow: ellipsis;
+column-count: 1;
+}

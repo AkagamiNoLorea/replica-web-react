@@ -1,18 +1,15 @@
-.h2{
-  display: flex;
-  justify-content:flex-end; 
-  align-items:flex-end;
-}
+
+               
+
 .texto1 {
+  display:flex;
   width: 400px;  
   height: 300px;
-  overflow: hidden;
   text-overflow: ellipsis;
   column-count: 1;
-  text-align:center; 
-  margin-left: auto;
+  
+ 
 }
-
 
 
 

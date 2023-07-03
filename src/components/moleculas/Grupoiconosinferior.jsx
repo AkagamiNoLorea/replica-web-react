@@ -8,13 +8,11 @@ import IconInfRocket from "../atomos/IconInfRocket"
 const Grupoiconosinferior = () => {
   return (
     <>
-    <div>
     <IconInfGrupo />
     <IconInfIssues />
     <IconInfGear />
     <IconInfChat />
     <IconInfRocket />
-    </div>
     </>
   )
 }

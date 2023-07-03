@@ -1,7 +1,7 @@
 
 const Firma = () => {
   return (
-    <div><h4>John Smith</h4></div>
+    <div><p className="firma">John Smith</p></div>
   );
 };
 

@@ -1,12 +1,24 @@
 .Reviewcompletacss{
-    margin: 3%;
-    padding: 1%;
+    display: flex;
+    margin: 4%;
     width: 25%;
-    height: 30vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
-    flex-grow: 4;
+    justify-content: space-evenly;
+}
+.Reviewcompletacss .firma{
     text-align: center;
+    font-weight: bolder;
+    margin-top: -6%;
+}
+.Reviewcompletacss .review{
+    text-align: center;
+    margin-top: -6%;
+}
+
+.Reviewcompletacss img{
+    width: 60%;
 }
 .patrocinadores{
   width: 80%;
@@ -16,3 +28,4 @@
   flex-wrap: wrap;
   margin-top: 5%;
 }
+

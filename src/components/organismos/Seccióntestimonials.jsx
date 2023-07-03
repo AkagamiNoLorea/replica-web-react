@@ -10,7 +10,7 @@ const Seccióntestimonials = () => {
         <div className="secciontestimonials">
             <Usertestimonials />
             <div className="liniareviews"><Reviewcompleta /><Reviewcompleta /><Reviewcompleta /></div>
-            <Sponsors />
+            <div className="gurposponsors"><Sponsors /></div>
             <div className="liniareviews"><Reviewcompleta /><Reviewcompleta /><Reviewcompleta /></div>
         </div>
         <div className="secciongupoiconinf">

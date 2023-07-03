@@ -2,11 +2,11 @@ import { Icon } from '@iconify/react';
 
 const IconInfIssues = () => {
   return (
-    <>
-    <Icon icon="mdi:code" color="#18c994" width="10%" height="10%" />
+    <div className='IconNumTxt'> 
+    <Icon icon="mdi:code" color="#18c994" width="40%" height="40%" />
     <p className="numeros"><b>385</b></p>
     <p className="icontitle"> Issues Solved</p>
-    </>
+    </div>
   )
 }
 

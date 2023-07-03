@@ -2,11 +2,11 @@ import { Icon } from '@iconify/react';
 
 const IconInfGear = () => {
   return (
-    <>
-    <Icon icon="mdi:gear" color="#ff556e" width="10%" height="10%" />
+    <div className='IconNumTxt'> 
+    <Icon icon="mdi:gear" color="#ff556e" width="40%" height="40%" />
     <p className="numeros"><b>159</b></p>
     <p className="icontitle">Good reviews</p>
-    </>
+    </div>
   )
 }
 

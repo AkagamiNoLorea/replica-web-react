@@ -2,15 +2,15 @@ const Icons = () => {
   return (
     <div>
       <img src="src/img/descarga001.png" width={"85px"} height={"85px"} />
-      <p>Identify Goals</p>
+      <p className="iconsname">Identify Goals</p>
       <img src="src/img/descarga002.png" width={"85px"} height={"85px"} />
-      <p>Situation Analysis</p>
+      <p className="iconsname">Situation Analysis</p>
       <img src="src/img/descarga003.png" width={"85px"} height={"85px"} />
-      <p>Tasks Setings</p>
+      <p className="iconsname">Tasks Setings</p>
       <img src="src/img/descarga004.png" width={"85px"} height={"85px"} />
-      <p>Social Interaction</p>
+      <p className="iconsname">Social Interaction</p>
       <img src="src/img/descarga005.png" width={"85px"} height={"85px"} />
-      <p>Get Things Done</p>
+      <p className="iconsname">Get Things Done</p>
     </div>
   );
 };

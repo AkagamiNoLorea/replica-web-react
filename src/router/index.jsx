@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
-import Extra1 from "../pages/Extra1";
-import Extra2 from "../pages/Extra2";
-import Extra3 from "../pages/extra3";
-import Layout from "../components/Layout/Layout";
+import Layout from "../Layout/Layout";
+import Articledetails from "../pages/Articledetails";
+import Termscomditions from "../pages/Termscomditions";
+import Privacypolicy from "../pages/Privacypolicy";
 
 export const router = createBrowserRouter([
     {
@@ -17,14 +17,14 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/articledetails",
-                element: <Extra1 />,
+                element: <Articledetails />,
             },
             {
                 path: "/termscomditions",
-                element: <Extra2 />,
+                element: <Termscomditions/>,
             }, {
                 path: "/privacypolicy",
-                element: <Extra3 />,
+                element: <Privacypolicy />,
             },
         ]
     }

@@ -1,19 +1,13 @@
 
 const Listaextras = () => {
   return (
-    <div>
-        <ul className="dropdown">
-            <li>
-              <Link to=«/articledetails»>ARTICLE DETAILS</Link>
-            </li>
-            <li>
-            <Link to=«/termscomditions»>TERMS CONDITIONS</Link>
-            </li>
-            <li>
-            <Link to=«/privacypolicy»>PRIVACY POLICY</Link>
-            </li>
-        </ul>
-    </div>
+    <>
+      <ul className="dropdown">
+        <a href="/articledetails">ARTICLE DETAILS</a>
+        <a href="/termscomditions">TERMS CONDITIONS</a>
+        <a href="/privacypolicy">PRIVACY POLICY</a>
+      </ul>
+    </>
   )
 }
 

@@ -3,7 +3,7 @@ const HeaderIphone = () => {
     return (
       <>
       <div className= "HeaderIphone">
-          <img src={HeaderIphone} alt="HeaderIphone" width={"15px"} height={"15px"} />
+          <img src={HeaderIphone} alt="HeaderIphone" width={"500px"} height={"500px"} />
       </div>
       </>
     );

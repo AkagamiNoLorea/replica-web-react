@@ -1,9 +1,5 @@
 import './Image-style.css';
 
-
-
-
-
 const Image = () => {
 const image= "/src/img/description-1-app.png";
     return (

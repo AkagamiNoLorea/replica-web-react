@@ -1,16 +1,22 @@
 import Sponsors from "../atomos/Sponsors"
 import Usertestimonials from "../atomos/Usertestimonials"
+import Grupoiconosinferior from "../moleculas/Grupoiconosinferior"
 import Reviewcompleta from "../moleculas/Reviewcompleta"
-
+import './secciontestimonials.css'
 
 const Seccióntestimonials = () => {
     return (
-        <div>
+        <>
+        <div className="secciontestimonials">
             <Usertestimonials />
-            <Reviewcompleta /><Reviewcompleta /><Reviewcompleta />
+            <div className="liniareviews"><Reviewcompleta /><Reviewcompleta /><Reviewcompleta /></div>
             <Sponsors />
-            <Reviewcompleta /><Reviewcompleta /><Reviewcompleta />
+            <div className="liniareviews"><Reviewcompleta /><Reviewcompleta /><Reviewcompleta /></div>
         </div>
+        <div className="secciongupoiconinf">
+            <Grupoiconosinferior />
+        </div>
+        </>
     )
 }
 

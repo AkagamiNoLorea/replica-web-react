@@ -1,0 +1,16 @@
+.secciontestimonials{
+    align-content: center;
+    background-color: #f8fafd;
+    padding: 3%, 3%, 3%, 10%;
+}
+
+.liniareviews{
+    display: flex;
+    flex-direction: row;
+}
+.secciongupoiconinf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e9eff7;
+}

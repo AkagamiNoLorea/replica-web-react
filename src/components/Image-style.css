@@ -1,5 +1,10 @@
-.Image{
-background-color: rgb(247, 246, 246);
-display: flex;
-justify-content: flex-start;
-}
+.cuadro {
+    display: flex;
+    justify-content:flex-start;
+    background-color: yellow;
+  }
+
+
+
+
+

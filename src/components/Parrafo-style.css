@@ -4,11 +4,13 @@
   align-items:flex-end;
 }
 .texto1 {
-  width: 400px;
+  width: 400px;  
   height: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
   column-count: 1;
+  text-align:center; 
+  margin-left: auto;
 }
 
 

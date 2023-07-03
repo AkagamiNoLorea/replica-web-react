@@ -10,6 +10,7 @@ import Imagenes2 from './components/Imagenes2';
 
 
 
+
 function App() {
   return (
     <>
@@ -21,6 +22,8 @@ function App() {
       <Parrafo1 className="Parrafo1" />
       <List className="List" />
       <Botons className="Botons" />
+      <listado className="listado" />
+    
     </>
   );
 

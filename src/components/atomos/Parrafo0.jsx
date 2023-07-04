@@ -5,7 +5,7 @@ const Parrafo0 = () => {
        
       
         <div className="texto1">
-        <h2>Organize Your Time And Start Getting Results</h2>
+        <h1>Organize Your Time And Start Getting Results</h1>
         <p> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Sed ac enim eget lacus gravida tincidunt. Phasellus gravida 

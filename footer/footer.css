@@ -1,0 +1,15 @@
+footer{
+    color: #666;
+    text-align: left;
+    padding: 1%;
+}
+.social{
+    background-color: #666;
+    color :white ;
+    
+    border-radius: 100%;
+}
+.social i{
+color: white;
+
+}

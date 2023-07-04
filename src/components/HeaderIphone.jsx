@@ -1,3 +1,4 @@
+import './HeaderIphone.css'
 const HeaderIphone = () => {
     const HeaderIphone= "src/img/header-iphone.png"
     return (

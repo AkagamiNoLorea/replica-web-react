@@ -12,50 +12,52 @@
 
 .CirculoAmarillo {
     position: absolute;
-    top: 35%;
-    left: 25%;
+    top: 10%;
+    right: 11%;
 }
 
 .Rombo {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 9%;
+    left: 6%;
 }
 
 .CirculoAzul {
     position: absolute;
-    top: 80%;
-    left: 25%;
+    top: 60%;
+    left: 10%;
 }
 
-.Icons {
-    .parent {
+div.Container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
+        grid-column-gap: 10px;
         grid-row-gap: 0px;
     }
+
+.Iconsname {
+    font-family: Courier;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .Titulo {
-    .parent {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        align-content: stretch;
-    }
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
 
-    h1 {
-        font-family: Courier;
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    p {
-        font-family: Courier;
-        font-size: 12px;
-    }
+.text {
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: -50px;
 }

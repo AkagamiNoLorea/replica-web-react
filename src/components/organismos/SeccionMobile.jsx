@@ -11,7 +11,7 @@ import Icons from '../atomos/Icons.jsx';
 const SeccionMobile = () => {
     return (
         <>
-            <div className="seccionMobile">
+            <div className="SeccionMobile">
             <Circuloamarillo />
             <Circuloazul />
             <Rombo />
@@ -19,7 +19,7 @@ const SeccionMobile = () => {
             <Boton />
             <HeaderIphone />
             </div>
-            <div className="seccionIcons">
+            <div className="Icons">
                 <Icons />
             </div>
         </>

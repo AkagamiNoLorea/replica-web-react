@@ -1,4 +1,4 @@
-
+import './List-style.css';
 const List = () => {
   return (
     <div className="lista">

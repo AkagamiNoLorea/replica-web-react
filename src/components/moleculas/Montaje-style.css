@@ -16,17 +16,22 @@
     background-color: #E8EFF6;
   }
 .Image{
-    display:flex;
+  display:flex;
   width: 1650px; 
-  height: 0px; 
+  height: 100px; 
 }
-  .texto1{
-text-align: center;
+  .texto1{ 
+    text-align:justify;
+
+;
+
   }
   .lista {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-left: 37.5%;
+    text-align:justify;
+    margin-top: 40px; 
   }
   
  .Botons{
@@ -35,19 +40,21 @@ text-align: center;
  h2{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-left: 37.5%;
+    margin-left: 41.5%;
  }
 
 .botonrojo{
     text-align: center;
-    margin-right: 292px;
+    
 }
 .listado{
-    text-align: center;
+    text-align: justify;
+    margin-left: 120px;
+    
 }
 .texto2{
   margin-right: 4%;
-  
+  text-align:justify;
     
 }
 h2{
@@ -63,7 +70,7 @@ h2{
   
 .Image1{
     width: 1650px; 
-    height: 0px; 
+    height: 100px; 
     margin-left: 130%;
 }  
   

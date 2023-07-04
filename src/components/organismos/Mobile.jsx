@@ -10,14 +10,14 @@ const SecciónMobile = () => {
     return (
         <>
             <div className="seccionMobile">
-                <div className="Titulo"></div>
-                <div className="Rombo"></div>
-                <div className="CirculoAmarillo"></div>
-                <div className="CirculoAzul"></div>
-                <div className="HeaderIphone"></div>
-                <div className="Boton"></div>
+            <Circuloamarillo />
+            <Circuloazul />
+            <Rombo />
+            <Titulo />
+            <Boton />
+            <HeaderIphone />
             </div>
-            <div className="Icons">
+            <div className="seccionIcons">
                 <Icons />
             </div>
         </>

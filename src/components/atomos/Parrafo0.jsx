@@ -1,11 +1,12 @@
 
+import './Parrafo0-style.css';
 const Parrafo0 = () => {
         return (
         <>
         <div className="h2">
         <h2>Organize Your Time And Start Getting Results</h2>
         </div>
-        <div className="texto0">
+        <div className="texto1">
         <p> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Sed ac enim eget lacus gravida tincidunt. Phasellus gravida 

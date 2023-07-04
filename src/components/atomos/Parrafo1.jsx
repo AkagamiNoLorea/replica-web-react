@@ -1,4 +1,5 @@
-import '../Parrafo1-style.css';
+
+import './Parrafo1-style.css';
 const Parrafo1 = () => {
     return (
       <>

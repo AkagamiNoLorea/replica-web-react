@@ -29,14 +29,23 @@
 }
 
 div.Container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 0px;
-    }
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+}
 
-.Iconsname {
+div.Icons {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div.Iconsname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Courier;
     font-size: 12px;
     font-weight: bold;

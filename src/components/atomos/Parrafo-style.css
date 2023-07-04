@@ -2,14 +2,29 @@
                
 
 .texto1 {
-  display:flex;
   width: 400px;  
   height: 300px;
   text-overflow: ellipsis;
   column-count: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  }
   
- 
-}
+ .h2{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+  
+ }
+
 
 
 

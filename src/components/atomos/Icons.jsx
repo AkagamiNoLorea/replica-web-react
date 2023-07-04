@@ -1,6 +1,6 @@
 const Icons = () => {
   return (
-    <div>
+    <div className= "Icons">
       <img src="src/img/descarga001.png" width={"85px"} height={"85px"} />
       <p className="iconsname">Identify Goals</p>
       <img src="src/img/descarga002.png" width={"85px"} height={"85px"} />

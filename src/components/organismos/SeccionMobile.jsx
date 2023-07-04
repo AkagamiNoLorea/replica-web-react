@@ -1,3 +1,5 @@
+import './SeccionMobile.css'
+
 import Circuloamarillo from './components/Circuloamarillo';
 import Circuloazul from './components/Circuloazul';
 import Rombo from './components/Rombo';

@@ -1,0 +1,11 @@
+.Boton{
+    display: flex;
+    justify-content: center;
+    }
+
+    .HeaderIphone {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        }  

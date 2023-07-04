@@ -3,7 +3,7 @@ import logo from '../../img/logo.svg'
 const Logo = () => {
     return (
         <>
-            <a href="/"><img src={logo} alt="Logo Empresa"></img></a>
+            <a href="/"><img className="logo" src={logo} alt="Logo Empresa"></img></a>
         </>
     )
 }

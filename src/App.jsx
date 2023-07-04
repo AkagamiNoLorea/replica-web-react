@@ -1,4 +1,4 @@
-import SeccionMobile from 'C:/Users/HAN SOLO/Desktop/TODO_CURSO/replica-web-react/src/App.jsx';
+import SeccionMobile from 'src/components/organismos/SeccionMobile.jsx';
 
 function App() {
     return (
@@ -6,7 +6,6 @@ function App() {
             <SeccionMobile />
         </>
     );
-
 }
 
 export default App;

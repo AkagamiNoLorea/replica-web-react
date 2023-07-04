@@ -16,13 +16,13 @@ const Montaje = () => {
         <Parrafo0/>
         <Organize/>
         </div>
+
         <div className='Container2'>
         <Image1/>
         <Imagenes2/>
         <Parrafo1/>
         <List/>
         <Botons/>
-
         </div>
         </>
     );

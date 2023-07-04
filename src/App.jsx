@@ -1,4 +1,4 @@
-import SeccionMobile from 'src/components/organismos/SeccionMobile.jsx';
+import SeccionMobile from './components/organismos/SeccionMobile.jsx';
 
 function App() {
     return (

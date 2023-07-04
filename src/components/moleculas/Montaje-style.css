@@ -1,0 +1,56 @@
+.Container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: aqua;
+    padding: 5%;
+  }
+
+  .Container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(130, 180, 180);
+    padding: 5%;
+  }
+.Image{
+    
+    width: 1650px; 
+  height: 0px; 
+}
+  .texto1{
+text-align: center;
+
+
+}
+h2{
+    text-align: center;
+}
+.botonrojo{
+    text-align: center;
+}
+.listado{
+    text-align: center;
+}
+.texto2{
+  
+    text-align: center;
+    
+}
+
+
+.lista{
+    margin-left: 33.5%;
+}
+.Imagenes2{
+    margin-left: 38.5%;
+}
+  
+.Image1{
+    width: 1650px; 
+    height: 0px; 
+    
+}  
+  

@@ -1,6 +1,6 @@
 const Botons = () => {
   return (
-    <div>
+    <div className="Botons">
       <button style={{ backgroundColor: 'red', color: 'white', borderRadius: '25px' }}>
         TERMS
       </button>

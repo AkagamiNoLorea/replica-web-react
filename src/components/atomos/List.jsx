@@ -1,7 +1,7 @@
 
 const List = () => {
   return (
-    <div>
+    <div className="lista">
     <ul>
         <li>
         <input type="checkbox" id="option1" />

@@ -1,4 +1,4 @@
-import Parrafo0 from '../atomos/Parrafo0.jsx';
+import Parrafo0 from '../atomos/Parrafo0';
 import Parrafo1 from '../atomos/Parrafo1';
 import Botons from '../atomos/Botons';
 import Image from '../atomos/Image';

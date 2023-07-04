@@ -2,10 +2,10 @@
 const Listaextras = () => {
   return (
     <>
-      <ul className="dropdown">
-        <a href="/articledetails">ARTICLE DETAILS</a>
-        <a href="/termscomditions">TERMS CONDITIONS</a>
-        <a href="/privacypolicy">PRIVACY POLICY</a>
+      <ul className="enlacesextra">
+        <li><a href="/articledetails">ARTICLE DETAILS</a></li>
+        <li><a href="/termscomditions">TERMS CONDITIONS</a></li>
+        <li><a href="/privacypolicy">PRIVACY POLICY</a></li>      
       </ul>
     </>
   )

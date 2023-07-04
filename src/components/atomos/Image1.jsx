@@ -1,4 +1,4 @@
-import './Image1-style.css';
+
 const Image1 = () => {
 const image1 = "/src/img/description-2-app.png";
       

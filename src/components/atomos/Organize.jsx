@@ -1,4 +1,4 @@
-import './Organize-style.css';
+
 const Organize = () => {
   return (
     <>

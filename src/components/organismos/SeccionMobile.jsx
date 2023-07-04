@@ -8,7 +8,7 @@ import Boton from './components/Boton';
 import HeaderIphone from './components/HeaderIphone';
 import Icons from './components/Icons';
 
-const SecciónMobile = () => {
+const SeccionMobile = () => {
     return (
         <>
             <div className="seccionMobile">
@@ -26,4 +26,4 @@ const SecciónMobile = () => {
     )
 }
 
-export default SecciónMobile
+export default SeccionMobile

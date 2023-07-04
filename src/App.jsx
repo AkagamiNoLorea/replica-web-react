@@ -1,9 +1,9 @@
-import SecciónMobile from './SeccionMobile.jsx';
+import SeccionMobile from './SeccionMobile.jsx';
 
 function App() {
     return (
         <>
-            <SecciónMobile />
+            <SeccionMobile />
         </>
     );
 

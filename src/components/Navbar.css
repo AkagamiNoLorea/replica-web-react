@@ -1,0 +1,57 @@
+.logo {
+    display: flex;
+    margin: 10px;
+    width: 100px;
+}
+nav {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+    position: fixed;
+    width: 100%;    
+    top: 0%;
+}
+.enlacesprincipales {
+    list-style: none;
+    overflow: hidden; 
+}
+.enlacesprincipales li {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.enlacesprincipales li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+.enlacesextra{
+    display:none;
+    position:absolute;
+    min-width:25%;
+}
+
+.enlacesextra:hover {
+    display:block;
+}
+.enlacesextra  li {
+    position:relative;
+}
+
+.enlacesextra  li ul {
+    right:-140px;
+    top:0px;
+}
+.downnav {
+    border: 2px solid red;
+    border-radius: 40px;
+    color: red;
+    font-weight: bold;
+}
+.downnav:hover {
+    background-color: red;
+    color: white;
+}

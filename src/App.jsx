@@ -1,6 +1,5 @@
 import './App.css'
-import Seccióntestimonials from './components/organismos/Seccióntestimonials';
-function App(){
+import Secciontestimonials from './components/organismos/Secciontestimonials';
 import SeccionMobile from './components/organismos/SeccionMobile.jsx';
 import Montaje from './components/moleculas/Montaje';
 
@@ -10,7 +9,7 @@ function App() {
         <>
             <SeccionMobile />
             <Montaje/>
-            <Seccióntestimonials />
+            <Secciontestimonials />
         </>
     );
 }

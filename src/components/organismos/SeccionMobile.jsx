@@ -19,7 +19,7 @@ const SeccionMobile = () => {
             <Boton />
             <HeaderIphone />
             </div>
-            <div className="Icons">
+            <div>
                 <Icons />
             </div>
         </>

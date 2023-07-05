@@ -4,7 +4,7 @@ import Grupoiconosinferior from "../moleculas/Grupoiconosinferior"
 import Reviewcompleta from "../moleculas/Reviewcompleta"
 import './secciontestimonials.css'
 
-const Seccióntestimonials = () => {
+const Secciontestimonials = () => {
     return (
         <>
         <div className="secciontestimonials">
@@ -20,4 +20,4 @@ const Seccióntestimonials = () => {
     )
 }
 
-export default Seccióntestimonials
+export default Secciontestimonials

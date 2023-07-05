@@ -1,12 +1,11 @@
 
-               
-
 .texto1 {
-  width: 400px;  
-  height: 300px;
+  width: 300px;  
+  height: 200px;
   text-overflow: ellipsis;
   column-count: 1;
   text-align: center;
+   
   
 }
 

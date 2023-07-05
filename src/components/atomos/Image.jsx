@@ -4,7 +4,7 @@ const image= "/src/img/description-1-app.png";
     <>
     
     <div className= "Image">
-    <img src={image} alt="Image 1" width={"500px"} height={"500px"} />
+    <img src={image} alt="Image 1" width={"620px"} height={"620px"} />
     </div>
     
     

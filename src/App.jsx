@@ -1,11 +1,13 @@
 import './App.css'
+import SeccionMobile from './components/organismos/SeccionMobile.jsx';
+
 
 function App() {
-
-  return (
-    <div>
-    </div>
-  )
+    return (
+        <>
+            <SeccionMobile />
+        </>
+    );
 }
 
-export default App
+export default App;
